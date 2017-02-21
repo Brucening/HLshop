@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PhoenixToolbar">
+        <!-- format:代表他的值是什么类型的  reference：饮用，比如说 指定一张图片-->
+        <attr name="rightButtonIcon" format="reference"/>
+        <attr name="leftButtonIcon" format="reference"/>
+        <attr name="rightButtonText" format="string"/>
+        <!-- 在 -->
+        <attr name="isShowSearchView" format="boolean"/>
+    </declare-styleable>
+</resources>
